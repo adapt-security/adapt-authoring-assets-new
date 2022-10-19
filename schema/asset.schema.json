@@ -29,6 +29,13 @@
         "showInUi": false
       }
     },
+    "subtype": {
+      "description": "The asset subtype (identifies the exact kind of data of the specified type)",
+      "type": "string",
+      "_backboneForms": {
+        "showInUi": false
+      }
+    },
     "path": {
       "description": "The relative path to the stored asset",
       "type": "string",
@@ -48,6 +55,11 @@
       "_backboneForms": {
         "showInUi": false
       }
+    },
+    "repo": {
+      "title": "Repository",
+      "description": "Specifies the type of asset repository used to store this asset",
+      "type": "string"
     }
   },
   "required": ["title", "description"]
