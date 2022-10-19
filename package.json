@@ -1,0 +1,24 @@
+{
+  "name": "adapt-authoring-assets",
+  "version": "0.0.1",
+  "description": "Assets API for Adapt Authoring Tool",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-assets",
+  "license": "GPL-3.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": "github:adapt-security/adapt-authoring-assets",
+  "dependencies": {
+    "ffmpeg-static": "^4.3.0",
+    "ffprobe-static": "^3.0.0",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.3",
+    "should": "13.2.3"
+  },
+  "peerDependencies": {
+    "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
+    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$anchor": "asset",
+  "description": "An Adapt assets.json file",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "description": "The metadata of asset",
+      "type": "object",
+      "default": {},
+      "_backboneForms": {
+        "showInUi": false
+      }
+    },
+    "title": {
+      "title": "Title",
+      "description": "The asset title",
+      "type": "string"
+    },
+    "description": {
+      "title": "Description",
+      "description": "The asset description",
+      "type": "string"
+    },
+    "type": {
+      "description": "The asset type (audio, video, image etc)",
+      "type": "string",
+      "_backboneForms": {
+        "showInUi": false
+      }
+    },
+    "path": {
+      "description": "The relative path to the stored asset",
+      "type": "string",
+      "_backboneForms": {
+        "showInUi": false
+      }
+    },
+    "url": {
+      "title": "URL",
+      "description": "If using an external asset, this should be the URL to the asset",
+      "type": "string",
+      "format": "uri"
+    },
+    "size": {
+      "description": "The size of the asset",
+      "type": "number",
+      "_backboneForms": {
+        "showInUi": false
+      }
+    }
+  },
+  "required": ["title", "description"]
+}

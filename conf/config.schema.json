@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "maxFileUploadSize": {
+      "type": "number",
+      "description": "Maximum file upload size",
+      "default": 1000000
+    },
+    "assetDir": {
+      "type": "string",
+      "description": "Assets repository location",
+      "isDirectory": true,
+      "default": "$DATA/assets"
+    },
+    "thumbsDir": {
+      "type": "string",
+      "description": "Location of local thumbs dir",
+      "isDirectory": true,
+      "default": "$TEMP/assets/thumbs"
+    },
+    "thumbnailMaxWidth": {
+      "type": "number",
+      "description": "Maximum width to fit thumbnail in",
+      "default": 320
+    },
+    "thumbnailMaxHeight": {
+      "type": "number",
+      "description": "Maximum height to fit thumbnail in",
+      "default": 240
+    },
+    "expectedFileTypes": {
+      "type": "array",
+      "description": "File types allowed for upload",
+      "items": {
+        "type": "string"
+      },
+      "default": ["image/jpeg", "image/png", "image/gif", "image/svg+xml", "audio/mpeg", "video/mp4", "application/zip"]
+    }
+  }
+}
