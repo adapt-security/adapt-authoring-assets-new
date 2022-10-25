@@ -2,32 +2,16 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
-    "maxFileUploadSize": {
-      "type": "number",
-      "description": "Maximum file upload size",
-      "default": 1000000
-    },
     "assetDir": {
       "type": "string",
       "description": "Assets repository location",
       "isDirectory": true,
       "default": "$DATA/assets"
     },
-    "thumbnailDir": {
+    "defaultAssetRepository": {
       "type": "string",
-      "description": "Location of local thumbs dir",
-      "isDirectory": true,
-      "default": "$TEMP/asset-thumbs"
-    },
-    "thumbnailWidth": {
-      "type": "number",
-      "description": "Maximum width to fit thumbnail in",
-      "default": 320
-    },
-    "thumbnailHeight": {
-      "type": "number",
-      "description": "Maximum height to fit thumbnail in",
-      "default": 240
+      "description": "Default repository to use for asset storage",
+      "default": "local"
     },
     "expectedFileTypes": {
       "type": "array",
@@ -36,6 +20,27 @@
         "type": "string"
       },
       "default": ["image/jpeg", "image/png", "image/gif", "image/svg+xml", "audio/mpeg", "video/mp4", "application/zip"]
+    },
+    "maxFileUploadSize": {
+      "type": "number",
+      "description": "Maximum file upload size",
+      "default": 1000000
+    },
+    "thumbnailDir": {
+      "type": "string",
+      "description": "Location of local thumbs dir",
+      "isDirectory": true,
+      "default": "$TEMP/asset-thumbs"
+    },
+    "thumbnailHeight": {
+      "type": "number",
+      "description": "Maximum height to fit thumbnail in",
+      "default": 240
+    },
+    "thumbnailWidth": {
+      "type": "number",
+      "description": "Maximum width to fit thumbnail in",
+      "default": 320
     }
   }
 }
