@@ -59,7 +59,10 @@
     "repo": {
       "title": "Repository",
       "description": "Specifies the type of asset repository used to store this asset",
-      "type": "string"
+      "type": "string",
+      "_backboneForms": {
+        "showInUi": false
+      }
     }
   },
   "required": ["title", "description"]
