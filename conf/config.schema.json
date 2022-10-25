@@ -17,7 +17,7 @@
       "type": "string",
       "description": "Location of local thumbs dir",
       "isDirectory": true,
-      "default": "$TEMP/assets/thumbs"
+      "default": "$TEMP/asset-thumbs"
     },
     "thumbnailWidth": {
       "type": "number",
