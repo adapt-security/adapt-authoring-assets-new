@@ -39,6 +39,7 @@
     "path": {
       "description": "The relative path to the stored asset",
       "type": "string",
+      "isInternal": true,
       "_backboneForms": {
         "showInUi": false
       }
@@ -60,6 +61,7 @@
       "title": "Repository",
       "description": "Specifies the type of asset repository used to store this asset",
       "type": "string",
+      "isInternal": true,
       "_backboneForms": {
         "showInUi": false
       }
