@@ -1,0 +1,11 @@
+{
+  "FFPROBE_FAILED": {
+    "data": {
+      "errno": "The error number",
+      "code": "The error code",
+      "syscall": "The call which caused the error"
+    },
+    "description": "An error occurred running ffprobe",
+    "statusCode": 500
+  }
+}

@@ -9,6 +9,14 @@
       "description": "The asset description",
       "type": "string"
     },
+    "duration": {
+      "description": "The asset file's duration",
+      "type": "number",
+      "isReadyOnly": true,
+      "_backboneForms": {
+        "showInUi": false
+      }
+    },
     "hasThumb": {
       "title": "Has thumbnail",
       "description": "Whether the asset has a thumbnail",
@@ -32,6 +40,14 @@
       "description": "Specifies the type of asset repository used to store this asset",
       "type": "string",
       "isInternal": true,
+      "_backboneForms": {
+        "showInUi": false
+      }
+    },
+    "resolution": {
+      "description": "The asset file's resolution",
+      "type": "string",
+      "isReadyOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
