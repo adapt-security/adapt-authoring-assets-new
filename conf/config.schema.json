@@ -19,7 +19,16 @@
       "items": {
         "type": "string"
       },
-      "default": ["image/jpeg", "image/png", "image/gif", "image/svg+xml", "audio/mpeg", "video/mp4", "application/zip"]
+      "default": [
+        "application/zip",
+        "audio/mpeg",
+        "audio/wav",
+        "image/gif", 
+        "image/jpeg", 
+        "image/png", 
+        "image/svg+xml", 
+        "video/mp4"
+      ]
     },
     "maxFileUploadSize": {
       "description": "Maximum file upload size",
