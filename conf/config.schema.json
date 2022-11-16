@@ -32,8 +32,9 @@
     },
     "maxFileUploadSize": {
       "description": "Maximum file upload size",
-      "type": "number",
-      "default": 1000000
+      "type": "string",
+      "isBytes": true,
+      "default": "50mb"
     },
     "thumbnailDir": {
       "description": "Location of local thumbs dir",
