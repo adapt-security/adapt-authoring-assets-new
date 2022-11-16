@@ -9,6 +9,16 @@
       "description": "The asset description",
       "type": "string"
     },
+    "hasThumb": {
+      "title": "Has thumbnail",
+      "description": "Whether the asset has a thumbnail",
+      "type": "boolean",
+      "isReadyOnly": true,
+      "default": false,
+      "_backboneForms": {
+        "showInUi": false
+      }
+    },
     "path": {
       "description": "The relative path to the stored asset",
       "type": "string",
