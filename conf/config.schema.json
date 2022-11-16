@@ -32,13 +32,8 @@
       "isDirectory": true,
       "default": "$TEMP/asset-thumbs"
     },
-    "thumbnailHeight": {
-      "description": "Maximum height to fit thumbnail in",
-      "type": "number",
-      "default": 240
-    },
     "thumbnailWidth": {
-      "description": "Maximum width to fit thumbnail in",
+      "description": "Maximum width for thumbnails",
       "type": "number",
       "default": 320
     }
