@@ -29,6 +29,7 @@
     "size": {
       "description": "The size of the asset",
       "type": "number",
+      "isReadyOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
@@ -36,6 +37,7 @@
     "subtype": {
       "description": "The asset subtype (identifies the exact kind of data of the specified type)",
       "type": "string",
+      "isReadyOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
@@ -48,6 +50,7 @@
     "type": {
       "description": "The asset type (audio, video, image etc)",
       "type": "string",
+      "isReadyOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
