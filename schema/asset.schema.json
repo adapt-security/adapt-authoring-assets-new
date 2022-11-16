@@ -4,14 +4,6 @@
   "description": "An Adapt assets.json file",
   "type": "object",
   "properties": {
-    "metadata": {
-      "description": "The metadata of asset",
-      "type": "object",
-      "default": {},
-      "_backboneForms": {
-        "showInUi": false
-      }
-    },
     "title": {
       "title": "Title",
       "description": "The asset title",
