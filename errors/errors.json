@@ -1,0 +1,9 @@
+{
+  "MISSING_ASSETS": {
+    "data": {
+      "errors": "The errors"
+    },
+    "description": "Assets are missing",
+    "statusCode": 500
+  }
+}
