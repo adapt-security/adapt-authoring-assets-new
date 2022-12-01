@@ -5,5 +5,26 @@
     },
     "description": "Assets are missing",
     "statusCode": 500
+  },
+  "REPO_EXISTS": {
+    "data": {
+      "name": "Repo name"
+    },
+    "description": "An asset repository with this name already exists",
+    "statusCode": 500
+  },
+  "REPO_INVALID": {
+    "data": {
+      "name": "Repo name"
+    },
+    "description": "Not a valid AbstractAssetRepository",
+    "statusCode": 500
+  },
+  "REPO_NOT_FOUND": {
+    "data": {
+      "name": "Repo name"
+    },
+    "description": "The requested asset repository doesn't exist",
+    "statusCode": 500
   }
 }
