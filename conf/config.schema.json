@@ -44,6 +44,11 @@
       "isDirectory": true,
       "default": "$TEMP/asset-thumbs"
     },
+    "thumbnailExt": {
+      "description": "File extension for thumbnails",
+      "type": "string",
+      "default": ".png"
+    },
     "thumbnailWidth": {
       "description": "Maximum width for thumbnails",
       "type": "number",
