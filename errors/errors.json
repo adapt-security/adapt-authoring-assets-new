@@ -20,6 +20,13 @@
     "description": "Asset type is not registered",
     "statusCode": 500
   },
+  "GENERATE_THUMB_FAIL": {
+    "data": {
+      "error": "Error message"
+    },
+    "description": "Failed to generate asset thumbnail",
+    "statusCode": 500
+  },
   "MISSING_ASSETS": {
     "data": {
       "errors": "The errors"
