@@ -39,6 +39,7 @@
       "title": "Repository",
       "description": "Specifies the type of asset repository used to store this asset",
       "type": "string",
+      "default": "local",
       "isInternal": true,
       "_backboneForms": {
         "showInUi": false

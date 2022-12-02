@@ -1,23 +1,30 @@
 {
+  "ASSET_TYPE_EXISTS": {
+    "data": {
+      "name": "Repo name"
+    },
+    "description": "An asset type with this name already exists",
+    "statusCode": 500
+  },
+  "ASSET_TYPE_INVALID": {
+    "data": {
+      "name": "Asset type"
+    },
+    "description": "Asset type does not extend AbstractAsset",
+    "statusCode": 500
+  },
+  "ASSET_TYPE_UNKNOWN": {
+    "data": {
+      "name": "Asset type"
+    },
+    "description": "Asset type is not registered",
+    "statusCode": 500
+  },
   "MISSING_ASSETS": {
     "data": {
       "errors": "The errors"
     },
     "description": "Assets are missing",
-    "statusCode": 500
-  },
-  "REPO_EXISTS": {
-    "data": {
-      "name": "Repo name"
-    },
-    "description": "An asset repository with this name already exists",
-    "statusCode": 500
-  },
-  "REPO_INVALID": {
-    "data": {
-      "name": "Repo name"
-    },
-    "description": "Not a valid AbstractAssetRepository",
     "statusCode": 500
   },
   "REPO_NOT_FOUND": {
