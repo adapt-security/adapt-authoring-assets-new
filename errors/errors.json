@@ -27,6 +27,13 @@
     "description": "Failed to generate asset thumbnail",
     "statusCode": 500
   },
+  "INVALID_ASSET_URL": {
+    "data": {
+      "url": "The asset URL"
+    },
+    "description": "Invalid URL has been specified for external asset",
+    "statusCode": 400
+  },
   "MISSING_ASSETS": {
     "data": {
       "errors": "The errors"
