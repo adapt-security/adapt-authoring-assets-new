@@ -12,7 +12,7 @@
     "duration": {
       "description": "The asset file's duration",
       "type": "number",
-      "isReadyOnly": true,
+      "isReadOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
@@ -21,7 +21,7 @@
       "title": "Has thumbnail",
       "description": "Whether the asset has a thumbnail",
       "type": "boolean",
-      "isReadyOnly": true,
+      "isReadOnly": true,
       "default": false,
       "_backboneForms": {
         "showInUi": false
@@ -48,7 +48,7 @@
     "resolution": {
       "description": "The asset file's resolution",
       "type": "string",
-      "isReadyOnly": true,
+      "isReadOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
@@ -56,7 +56,7 @@
     "size": {
       "description": "The size of the asset",
       "type": "number",
-      "isReadyOnly": true,
+      "isReadOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
@@ -64,7 +64,7 @@
     "subtype": {
       "description": "The asset subtype (identifies the exact kind of data of the specified type)",
       "type": "string",
-      "isReadyOnly": true,
+      "isReadOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
@@ -77,7 +77,7 @@
     "type": {
       "description": "The asset type (audio, video, image etc)",
       "type": "string",
-      "isReadyOnly": true,
+      "isReadOnly": true,
       "_backboneForms": {
         "showInUi": false
       }
