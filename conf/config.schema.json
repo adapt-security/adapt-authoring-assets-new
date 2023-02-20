@@ -33,7 +33,7 @@
         "video/mp4"
       ]
     },
-    "maxFileUploadSize": {
+    "maxFileSize": {
       "description": "Maximum file upload size",
       "type": "string",
       "isBytes": true,
