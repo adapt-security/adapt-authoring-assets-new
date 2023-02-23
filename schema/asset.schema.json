@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$anchor": "asset",
-  "description": "An Adapt assets.json file",
+  "description": "Asset metadata",
   "type": "object",
   "properties": {
     "description": {
