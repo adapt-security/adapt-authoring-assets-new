@@ -10,7 +10,8 @@
   "dependencies": {
     "ffmpeg-static": "^4.3.0",
     "ffprobe-static": "^3.0.0",
-    "fluent-ffmpeg": "^2.1.2"
+    "fluent-ffmpeg": "^2.1.2",
+    "mime-types": "^2.1.35"
   },
   "devDependencies": {
     "mocha": "^6.2.3",
