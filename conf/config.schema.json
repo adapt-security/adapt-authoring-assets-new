@@ -29,7 +29,8 @@
         "image/gif", 
         "image/jpeg", 
         "image/png", 
-        "image/svg+xml", 
+        "image/svg+xml",
+        "text/vtt",
         "video/mp4"
       ]
     },
