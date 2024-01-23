@@ -21,7 +21,9 @@
   },
   "peerDependencies": {
     "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
-    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
-    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
+    "adapt-authoring-authored": "github:adapt-security/adapt-authoring-authored",
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core",
+    "adapt-authoring-middleware": "github:adapt-security/adapt-authoring-middleware",
+    "adapt-authoring-tags": "github:adapt-security/adapt-authoring-tags"
   }
 }
