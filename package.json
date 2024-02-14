@@ -8,16 +8,16 @@
   "main": "index.js",
   "repository": "github:adapt-security/adapt-authoring-assets",
   "dependencies": {
-    "ffmpeg-static": "^4.3.0",
-    "ffprobe-static": "^3.0.0",
+    "ffmpeg-static": "^4.4.1",
+    "ffprobe-static": "^3.1.0",
     "fluent-ffmpeg": "^2.1.2",
     "mime-types": "^2.1.35"
   },
   "devDependencies": {
-    "eslint": "^8.36.0",
+    "eslint": "^8.56.0",
     "mocha": "^6.2.3",
     "should": "13.2.3",
-    "standard": "^17.0.0"
+    "standard": "^17.1.0"
   },
   "peerDependencies": {
     "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
