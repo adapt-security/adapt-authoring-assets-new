@@ -30,6 +30,7 @@
         "image/jpeg", 
         "image/png", 
         "image/svg+xml",
+        "image/webp",
         "text/vtt",
         "video/mp4"
       ]
