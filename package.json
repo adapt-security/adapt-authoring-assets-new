@@ -14,7 +14,7 @@
     "mime-types": "^2.1.35"
   },
   "devDependencies": {
-    "eslint": "^9.9.1",,
+    "eslint": "^9.9.1",
     "mocha": "^10.7.3",
     "should": "13.2.3",
     "standard": "^17.1.0"
