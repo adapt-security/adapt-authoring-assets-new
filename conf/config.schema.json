@@ -39,6 +39,8 @@
       "description": "Maximum asset file upload size",
       "type": "string",
       "isBytes": true,
+      "isMutable": true,
+      "isPublic": true,
       "default": "50mb"
     },
     "thumbnailDir": {
