@@ -35,7 +35,7 @@
         "video/mp4"
       ]
     },
-    "maxAssetFileSize": {
+    "assetMaxFileSize": {
       "description": "Maximum asset file upload size",
       "type": "string",
       "isBytes": true,
