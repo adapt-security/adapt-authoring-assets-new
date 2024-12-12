@@ -1,0 +1,26 @@
+name: Label pull requests from external sources
+
+on:
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  handle_external_pr:
+    if: github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Label pull request with "COMMUNITY"
+        run: gh pr edit ${{ github.event.pull_request.number }} -R ${{ github.repository }} --add-label "COMMUNITY"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  handle_precommit_pr:
+    if: contains(github.event.pull_request.title, '[pre-commit.ci]')
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Label pull request with "BOT"
+        run: gh pr edit ${{ github.event.pull_request.number }} -R ${{ github.repository }} --add-label "BOT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
