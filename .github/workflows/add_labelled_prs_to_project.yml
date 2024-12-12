@@ -6,7 +6,7 @@ on:
 
 jobs:
   add-to-project:
-    if: ${{ github.event.label.name == 'BOT' }}
+    if: ${{ github.event.label.name == 'dependencies' }}
     name: Add to main project
     runs-on: ubuntu-latest
     steps:
